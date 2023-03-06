@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Git Branch Mangement</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <header class="container">
+        <img src="banner.png" alt="banner image" class="img-fluid w-100">
+    </header>
+
+    <main class="container">
+        <section class="main-container">
+            <div class="my-5">
+                <h3>List of all branches</h3>
+                <ul>
+                    <li>To see <strong>local branches</strong>, run this code<br><code> git branch</code></li>
+                    <li>To see <strong>remote branches</strong>, run this code<br><code> git branch -r</code></li>
+                    <li>To see <strong>all local and remote branches</strong>, run this code<br><code> git branch -a</code></li>
+                </ul>
+            </div>
+            <div class="my-5">
+                <h3>See What Branch You're On</h3>
+                <ul>
+                    <li>Run this code <br><code> git status</code></li>
+                </ul>
+            </div>
+            <div class="my-5">
+                <h3>To create a new branch</h3>
+                <ul>
+                    <li>Run this code <br><code> git checkout -b example-branch-name</code></li>
+                </ul>
+            </div>
+            <div class="my-5">
+                <h3>Switch to a branch in local repository</h3>
+                <ul>
+                    <li>Run this code <br><code> git checkout example-branch-name</code></li>
+                </ul>
+            </div>
+            <div class="my-5">
+                <h3>Merge a branch</h3>
+                <ul>
+                    <li>Make sure youre in main branch and for this Run this code <br><code> git status</code></li>
+                    <li>Then merge dat that come from another branch to main branch. Run this code <br><code> git merge example-branch-name</code></li>
+                </ul>
+            </div>
+            <div class="my-5">
+                <h3>To delete a local branch</h3>
+                <ul>
+                    <li>Make sure youre in main branch and for this Run this code <br><code> git status</code></li>
+                    <li>To delete a branch: Run this code <br><code> git branch -d example-branch-name</code></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
